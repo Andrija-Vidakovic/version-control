@@ -1,5 +1,5 @@
 (function () {
-  console.log("Zdravo svete!!");
+  console.log("Zdravo svete!!!");
 })();
 
 let regx = /".+?"/g; 
