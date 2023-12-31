@@ -1,0 +1,9 @@
+total 28
+drwxr-xr-x 3 vidak users 4096 Dec 31 14:33 .
+drwxr-xr-x 3 vidak users 4096 Dec 31 13:55 ..
+drwxr-xr-x 8 vidak users 4096 Dec 31 14:32 .git
+-rw-r--r-- 1 vidak users   89 Dec 31 13:56 README.md
+-rw-r--r-- 1 vidak users    0 Dec 31 14:33 list.txt
+-rw-r--r-- 1 vidak users  180 Dec 31 14:25 test.js
+-rw-r--r-- 1 vidak users  253 Dec 31 13:56 test.txt
+-rw-r--r-- 1 vidak users  306 Dec 31 14:11 test1.txt
