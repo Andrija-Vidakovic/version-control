@@ -1,0 +1,21 @@
+povrsina[cm2]*0.6 = testa [g]
+
+brasno + voda = testo
+brasno + 0.7brasno = testo // 70% voda
+
+Npr:
+ 	15"*	14"	13"*	12"	9"
+pleh 	R=38	R=35	R=33	R=30	R=23	
+testo	680g	580g	510g	420g	250g
+brasno	400g	340g	300g	250g	150g
+voda	280g	240g	210g 	170g	100g
+
+pica = function(R,v){
+    let r=R/2;
+    let testo = r*r*Math.PI*0.6;
+    let brasno = testo/(1+v);
+    let voda = testo-brasno;
+    return {testo,brasno,voda};
+}
+
+ispravka: testo[g] = 0.37 * povrsina[cm2]
